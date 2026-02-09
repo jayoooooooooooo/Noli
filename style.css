@@ -1,0 +1,63 @@
+body {
+    font-family: 'Palatino Linotype', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+p {
+    font-family: 'Roboto', cursive;
+    font-size: 15px;
+    margin: 10px 0;
+    color: #ffffff;
+    align-self: auto;
+}
+
+.about-container {
+    display: ruby-text-container;
+    margin: 40px 40px;
+    padding: 10px;
+}
+
+.about-container-wrapper {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.596);
+    border-radius: 10px;
+    margin-top: 90px;
+}
+
+.ENHYPEN {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 20px 0;
+  }
+.ENHYPEN {
+    display: flex;
+    align-items: top;
+}
+
+.profile-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 10%;
+    object-fit: cover;
+}
+
+.profile-image:hover {
+    transform: scale(1.5);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+audio {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+}       
+
+#Rizz {
+    background-image: url(Rizz.jpg);
+}
