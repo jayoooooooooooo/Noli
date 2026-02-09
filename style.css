@@ -60,4 +60,11 @@ audio {
 
 #Rizz {
     background-image: url(Rizz.jpg);
+
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2rem;
+    }
 }
